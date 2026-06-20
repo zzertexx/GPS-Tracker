@@ -1,5 +1,5 @@
 # GPS Tracker
-Use this bracelet to get live location on any device 
+### Use this bracelet to get live location and watch on any device 
 > do not use to stalk people by giving them "unsuspicious" bracelet and looking where they are!!
 
 ## Zine
@@ -20,8 +20,15 @@ Use this bracelet to get live location on any device
 4. github.com/AndruPol/nrf52832-recover - setup programmer
 5. Push firmware into nRF52832 
 
-## Firmware
-In current version, software may have significant bugs, improper code, not enough features, but I will edit/fix as I get hardware to debug
+## Feautures
+* Button to Sleep/Wake
+* LED indicator of work status
+* BLE advertising for future app
+* Send location data to personal Google Sheet
+* Charge with Type-C
+* Compatible with lots of watch straps
+
+> In current version, software may have significant bugs, improper code, not enough features, but I will edit/fix as I get hardware to debug
 
 ## 4-layer PCB
 **Built in KiCad 10.99 night build**
@@ -32,3 +39,52 @@ Ignore User.Comments
 2 Layer - 3.3V  
 3 Layer - GND  
 4 Layer - B.Cu  
+
+## Bill of Materials
+| Name | Quantity |
+| --- | --- |
+| nRF52832 | x1 |
+| CH340C | x1 |
+| USB-C 14 pin | x1 |
+| TP4056-42-ESOP8 | x1 |
+| FS8205A | x1 |
+| DW01A | x1 |
+| XC6206P332MR-G | x1 |
+| TXS0102DCUR | x1 |
+| XUNPU SMN-303 | x1
+| A7680C-LANV | x1 |
+| ZIISOR TX4G-FPC-4015 | x1 |
+| 16-213SURC/S530-A4/TR8 | x1 |
+| 2450AT18A100E | x1 |
+| NX2016SA-32MHZ | x1 |
+| SC-20S,32.768kHz | x1 |
+| BLM21PG300SN1D | x1 |
+| ESDBW5V0A1 | x1 |
+| LXES15AAA1-153 | x1 |
+| L80-R | x1 |
+| 500 mAh 503040 Battery | x1 |
+| Straps - Galaxy watch 6 18mm | x1 |
+| ST-LINK V2 | x1 |
+| B3U-3000P LED Diode | x1 |
+| LXES15AAA1-153 | x1 |
+| 100nF C | x14 |
+| 10uF C | x2 |
+| 1uF C | x4 |
+| 12pF C | x6 |
+| 100uF C | x2 |
+| 4.7uF C | x1 |
+| 0.8pF C | x1 |
+| 10pF C | x1 |
+| 33pF C | x1 |
+| 100pF C | x1 |
+| 10pF C | x1 |
+| 1.2K R | x1 |
+| 1K R | x3 |
+| 100 R | x5 |
+| 5.1K R | x2 |
+| 10K R | x1 |
+| 0 R | x1 |
+| 10uH L | x1 |
+| 3.9nH L | x1 |
+| 15nH L | x1 |
+
