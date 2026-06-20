@@ -3,7 +3,7 @@
 > do not use to stalk people by giving them "unsuspicious" bracelet and looking where they are!!
 
 ## Zine
-<img width="578" height="888" alt="Screenshot 2026-06-20 121652" src="https://github.com/user-attachments/assets/163effdb-6032-4d0f-9ed8-6719e07806ab" />
+<img width="556" height="844" alt="Untitled" src="https://github.com/user-attachments/assets/6ca49f55-1864-40bb-9683-53f9424ef7a8" />
 
 ## Images
 <img width="750" height="449" alt="Screenshot 2026-06-20 123940" src="https://github.com/user-attachments/assets/19c69fa8-3c0b-4a63-b058-d9a5b1894166" />
