@@ -87,4 +87,4 @@ Ignore User.Comments
 | 10uH L | x1 |
 | 3.9nH L | x1 |
 | 15nH L | x1 |
-
+| M2 Screws | x8 |
