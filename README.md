@@ -17,10 +17,13 @@
 1. Order components from Bill of Materials and 3D Print case
 2. Solder electronics and assembly into case
 3. Insert SIM-Card with cellular data over 2G 
-4. github.com/AndruPol/nrf52832-recover - setup programmer
-5. Push firmware into nRF52832 + **place your parameters in "modem.h" line 5 and 8**
+4. place your parameters in firmware "modem.h" line 5 and 8
+5. Open Firmware via nRF connect in VS Code using Add existing application
+6. Add build configuration: board: nRF52dk_nRF52832
+7. Wait for build -> connect to board via SWD: github.com/AndruPol/nrf52832-recover
 
-## Feautures
+ 
+## Features
 * Button to Sleep/Wake
 * LED indicator of work status
 * BLE advertising for future app
@@ -39,6 +42,9 @@ Ignore User.Comments
 2 Layer - 3.3V  
 3 Layer - GND  
 4 Layer - B.Cu  
+
+## Why did I build it?
+My bro asked me if I can build one. I don't have any interest for GPS locators, or needness for one. I just wanted to try myself in designing Wearable and also help my bro, so I did it and I felt real hardship of building in limited space. Currently my design is really bad and MUST be fixed in next updates by tightening free space. 
 
 ## Bill of Materials
 | Name | Quantity |
