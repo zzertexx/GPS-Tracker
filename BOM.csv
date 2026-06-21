@@ -1,49 +1,49 @@
-,,JLCPCB,JLCPCBA,LCSC,min,,,,,,,
-nRF52832,C77540,"$3,63",extended,"$3,66","1,00",,R,,,,,
-CH340C,C84681,"$0,63",extended,"$0,58","1,00",,1.2K,,,,0.1uF - x3,100nF
-USB-C 14 pin,C165948,"$0,18",extended,,,,1K x3,,,,10uF - x2,
-TP4056-42-ESOP8,C16581,"$0,19",prom extended,"$0,19","5,00",,100 x5,,,,1uF(ceramic) - x2,
-FS8205A,C908265,"$0,07",extended,,,,5.1K x2,,,,100nF - x11,
-DW01A,C351410,"$0,04",extended,,,,10K,,,,12pF - x6,
-XC6206P332MR-G,C5446,"$0,11",basic,,,,0K,,,,100uF - x2,
-TXS0102DCUR,C53434,"$0,20",extended,,,,,,,,1uF - x2,
-XUNPU SMN-303 - SIM Card,C266888,"$0,48",extended,"$0,46",,,,,,,4.7uF,
-A7680C-LANV,C5381968,"$3,89",extended,"$4,02","1,00",,,,,,0.8pF,
-ZIISOR TX4G-FPC-4015 - Antenna for 2G,C454896,"$0,38",extended,"$0,38","5,00",,,,,,10pF,
-16-213SURC/S530-A4/TR8 - Red LED,C74339,"$0,03",basic,,,,,,,,33pF,
-2450AT18A100E - nRF antenna,C89334,"$0,52",extended,"0,53",1,0402 hard to hand solder,,,,,100pF,
-NX2016SA-32MHZ - 32MHz crystal,C5441424 ,"$0,44",extended,,,larger than 0402,,,,,,
-"SC-20S,32.768kHz - crystal",C97603,"$0,24",extended,,,larger than 0402,,,,,,
-BLM21PG300SN1D - Ferrite Bead,C16903,"$0,03",extended,,,hand-solder 0805,,,,,,
-ESDBW5V0A1 - A7680C TVS,C5173252,"$0,06",extended,,,0402 hard to hand solder,,,,,,
-LXES15AAA1-153 - Antenna TVS,C5210978,"$0,04",extended,,,0402 hard to hand solder,,,,,,
-L80-R,,"$5,00","no JLCPCB and LCSC, only AliExpress",,,hand solder,,,,,,
-Battery,,"$3,66",Aliexpress,,,https://aliexpress.ru/item/1005008217717191.html?shpMethod=Other&sku_id=12000044268208548&spm=a2g2w.productlist.search_results.0.64b442c5MwpQNY,,,,,,
-Straps - Galaxy watch 6 18mm,,"$1,18",Aliexpress,,,https://aliexpress.ru/item/1005007219292840.html?sku_id=12000039849739042&spm=a2g2w.productlist.search_results.11.5b6e329dXvaUst,,,,,,
-ST-LINK V2,,"$1,30",Aliexpress,,,https://aliexpress.ru/item/1005006144093275.html?sku_id=12000035958608625&spm=a2g2w.productlist.search_results.0.69e77472dvzkQh,https://devzone.nordicsemi.com/nordic/nordic-blog/b/blog/posts/flashing-and-debugging-nrf5152-with-a-cheap-blackm,,,,,
-B3U-3000P LED Diode,C963349,"$1,43",extended,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-Capacitors,,,,,,,,,,,,
-CL05B104KO5NNNC - C 100nF,C1525,"$0,01",basic,,,402,,,,,,
-CL10A106KP8NNNC - C 10uF,C19702,"$0,02",basic,,,603,,,,,,
-CL10A105KB8NNNC - C 1uF,C15849,"$0,01",basic,,,603,,,,,,
-0402CG120J500NT - C 12pF,C1547,"$0,01",basic,,,402,,,,,,
-CK1A101M-CRD54 - C 100uF,C3001231,"$0,03",extended,,,"SMD,D5xL5.4mm",hand sloder,,,,,
-CL10A475KO8NNNC - C 4.7uF,C19666,"$0,01",basic,,,603,,,,,,
-CL10C0R8BB8NNNC - C 0.8pF,C21357,"$0,01",extended,,,603,hand sloder,,,,,
-CL05C100JB5NNNC - C 10pF,C32949,"$0,01",basic,,,402,,,,,,
-0402CG330J500NT - C 33pF,C1562,"$0,01",basic,,,402,,,,,,
-0402CG101J500NT - C 100pF,C1546,"$0,01",basic,,,402,,,,,,
-Resistors,,,,,,,,,,,,
-0603WAF1201T5E - R 1.2K,C22765,"$0,01",basic,,,603,,,,,,
-0402WGF1001TCE - R 1K,C11702,"$0,01",basic,,,402,,,,,,
-0402WGF1000TCE - R 100,C25076,"$0,01",basic,,,402,,,,,,
-0402WGF5101TCE - R 5.1K,C25905,"$0,01",basic,,,402,,,,,,
-0805W8F1002T5E - R 10K,C17414,"$0,01",basic,,,805,,,,,,
-0402WGF0000TCE R - 0,C17168,"$0,01",basic,,,402,,,,,,
-Inductors,,,,,,,,,,,,
-SDFL2012S100KTF - L 10uH,C1046,"$0,05",basic,,,805,,,,,,
-SDCL1005C3N9STDF - L 3.9nH,C14033,"$0,01",prom ext,,,402,,,,,,
-SDCL1005C15NJTDF - L 15nH,C27143,"$0,01",prom ext,,,402,,,,,,
-,,"$23,99",,,,,,,,,,
+,,JLCPCB
+nRF52832,C77540,"$3,63"
+CH340C,C84681,"$0,63"
+USB-C 14 pin,C165948,"$0,18"
+TP4056-42-ESOP8,C16581,"$0,19"
+FS8205A,C908265,"$0,07"
+DW01A,C351410,"$0,04"
+XC6206P332MR-G,C5446,"$0,11"
+TXS0102DCUR,C53434,"$0,20"
+XUNPU SMN-303 - SIM Card,C266888,"$0,48"
+A7680C-LANV,C5381968,"$3,89"
+ZIISOR TX4G-FPC-4015 - Antenna for 2G,C454896,"$0,38"
+16-213SURC/S530-A4/TR8 - Red LED,C74339,"$0,03"
+2450AT18A100E - nRF antenna,C89334,"$0,52"
+NX2016SA-32MHZ - 32MHz crystal,C5441424 ,"$0,44"
+"SC-20S,32.768kHz - crystal",C97603,"$0,24"
+BLM21PG300SN1D - Ferrite Bead,C16903,"$0,03"
+ESDBW5V0A1 - A7680C TVS,C5173252,"$0,06"
+LXES15AAA1-153 - Antenna TVS,C5210978,"$0,04"
+L80-R,,"$5,00"
+Battery,,"$3,66"
+Straps - Galaxy watch 6 18mm,,"$1,18"
+ST-LINK V2,,"$1,30"
+B3U-3000P LED Diode,C963349,"$1,43"
+,,
+,,
+Capacitors,,
+CL05B104KO5NNNC - C 100nF,C1525,"$0,01"
+CL10A106KP8NNNC - C 10uF,C19702,"$0,02"
+CL10A105KB8NNNC - C 1uF,C15849,"$0,01"
+0402CG120J500NT - C 12pF,C1547,"$0,01"
+CK1A101M-CRD54 - C 100uF,C3001231,"$0,03"
+CL10A475KO8NNNC - C 4.7uF,C19666,"$0,01"
+CL10C0R8BB8NNNC - C 0.8pF,C21357,"$0,01"
+CL05C100JB5NNNC - C 10pF,C32949,"$0,01"
+0402CG330J500NT - C 33pF,C1562,"$0,01"
+0402CG101J500NT - C 100pF,C1546,"$0,01"
+Resistors,,
+0603WAF1201T5E - R 1.2K,C22765,"$0,01"
+0402WGF1001TCE - R 1K,C11702,"$0,01"
+0402WGF1000TCE - R 100,C25076,"$0,01"
+0402WGF5101TCE - R 5.1K,C25905,"$0,01"
+0805W8F1002T5E - R 10K,C17414,"$0,01"
+0402WGF0000TCE R - 0,C17168,"$0,01"
+Inductors,,
+SDFL2012S100KTF - L 10uH,C1046,"$0,05"
+SDCL1005C3N9STDF - L 3.9nH,C14033,"$0,01"
+SDCL1005C15NJTDF - L 15nH,C27143,"$0,01"
+,,"$23,99"
