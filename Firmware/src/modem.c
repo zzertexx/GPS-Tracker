@@ -43,7 +43,7 @@ static bool at_send(const char *cmd, const char *expect, int timeout_ms)
     uart_write_str(cmd);
     uart_write_str("\r\n");
 
-        int64_t deadline = k_uptime_get() + timeout_ms;
+    int64_t deadline = k_uptime_get() + timeout_ms;
     while (k_uptime_get() < deadline) {
         int remaining = (int)(deadline - k_uptime_get());
         if (remaining <= 0) {
@@ -54,7 +54,7 @@ static bool at_send(const char *cmd, const char *expect, int timeout_ms)
             break;
         }
         if (n == 0) {
-            continue;
+            continue; 
         }
         printk("AT << %s\n", m_line);
         if (strstr(m_line, expect)) {
@@ -68,7 +68,7 @@ static bool at_send(const char *cmd, const char *expect, int timeout_ms)
     return false;
 }
 
-void modem_init(void) 
+void modem_init(void)
 {
     uart_switch_to_modem();
     uart_flush_rx();
@@ -76,7 +76,7 @@ void modem_init(void)
     k_sleep(K_MSEC(2000));
 
     at_send("AT",          "OK",  AT_TIMEOUT_MS);
-    at_send("ATE0",        "OK",  AT_TIMEOUT_MS); 
+    at_send("ATE0",        "OK",  AT_TIMEOUT_MS);
     at_send("AT+CMEE=2",   "OK",  AT_TIMEOUT_MS);
 
     char cmd[128];
@@ -97,7 +97,7 @@ void modem_wake(void)
     uart_switch_to_modem();
     uart_write_str("AT\r\n");
     k_sleep(K_MSEC(300));
-    at_send("AT+CSCLK=0", "OK", "AT_TIMEOUT_MS"); 
+    at_send("AT+CSCLK=0", "OK", AT_TIMEOUT_MS);
 }
 
 bool modem_send_location(double lat, double lon)
@@ -105,7 +105,7 @@ bool modem_send_location(double lat, double lon)
     uart_switch_to_modem();
     uart_flush_rx();
 
-        if (!at_send("AT+CREG?", "+CREG:", 15000)) {
+    if (!at_send("AT+CREG?", "+CREG:", 15000)) {
         printk("Modem: not registered\n");
         return false;
     }
@@ -113,6 +113,7 @@ bool modem_send_location(double lat, double lon)
         printk("Modem: registration status not OK: %s\n", m_line);
         return false;
     }
+
     at_send("AT+CGACT=1,1", "OK", 30000);
 
     int lat_sign = (lat < 0.0) ? -1 : 1;

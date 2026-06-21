@@ -5,14 +5,14 @@
 #include <string.h>
 #include <zephyr/sys/printk.h>
 
-#define PMTK_STANDBY "$PMTK161,0*28\r\n"
-#define PMTK_WAKE "$PMTK010,001*2E\r\n"
+#define PMTK_STANDBY  "$PMTK161,0*28\r\n"
+#define PMTK_WAKE     "$PMTK010,001*2E\r\n"
 
-#define GPS_LINE_MAX 96u
+#define GPS_LINE_MAX  96u
 
-static gps_fix_t m_fix;
-static char m_line[GPS_LINE_MAX];
-static uint8_t m_line_len;
+static gps_fix_t  m_fix;
+static char       m_line[GPS_LINE_MAX];
+static uint8_t    m_line_len;
 
 static double nmea_coord_to_decimal(const char *field, char hem)
 {
@@ -28,7 +28,7 @@ static double nmea_coord_to_decimal(const char *field, char hem)
     double minutes  = atof(field + degree_digits);
     double decimal  = degrees + (minutes / 60.0);
 
-    if (hem == 'S' || hem -= 'W') {
+    if (hem == 'S' || hem == 'W') {
         decimal = -decimal;
     }
     return decimal;
@@ -46,7 +46,7 @@ static int split_fields(char *line, char *fields[], int max_fields)
             break;
         }
         *comma = '\0';
-        tok = comma + 1;
+        tok    = comma + 1;
     }
     return count;
 }
@@ -66,11 +66,11 @@ static bool parse_gga(char *sentence)
         return false;
     }
 
-    m_fix.latitude = nmea_coord_to_decimal(fields[2], fields[3][0]);
-    m_fix.longitude = nmea_coord_to_decimal(fields[4], fields[5][0]);
+    m_fix.latitude   = nmea_coord_to_decimal(fields[2], fields[3][0]);
+    m_fix.longitude  = nmea_coord_to_decimal(fields[4], fields[5][0]);
     m_fix.satellites = (uint8_t)atoi(fields[7]);
-    m_fix.valid = true;
-    return true
+    m_fix.valid      = true;
+    return true;
 }
 
 static bool process_line(char *line)
@@ -87,7 +87,7 @@ static bool process_line(char *line)
     if (strncmp(line + 1, "GPGGA", 5) == 0 ||
         strncmp(line + 1, "GNGGA", 5) == 0) {
         return parse_gga(line);
-    } 
+    }
     return false;
 }
 
@@ -96,7 +96,7 @@ bool gps_feed_byte(uint8_t byte)
     if (byte == '\r') {
         return false;
     }
-    if (byte = '\n') {
+    if (byte == '\n') {
         bool got_fix = false;
         if (m_line_len > 0) {
             m_line[m_line_len] = '\0';
@@ -118,7 +118,7 @@ gps_fix_t gps_get_fix(void)
 
 void gps_init(void)
 {
-    memset(&m_fix, 0. sizeof(m_fix));
+    memset(&m_fix, 0, sizeof(m_fix));
     m_line_len = 0;
 }
 
@@ -133,6 +133,7 @@ bool gps_acquire_fix(gps_fix_t *fix, int timeout_ms)
 {
     uart_switch_to_gps();
     uart_flush_rx();
+
     uart_write_str(PMTK_WAKE);
 
     int64_t deadline = k_uptime_get() + timeout_ms;
@@ -144,7 +145,7 @@ bool gps_acquire_fix(gps_fix_t *fix, int timeout_ms)
         }
         if (gps_feed_byte(byte) && m_fix.valid) {
             *fix = m_fix;
-            printk("GPS fix: lat=%d.%06d lon=%d.%06d sats=%u\n"),
+            printk("GPS fix: lat=%d.%06d lon=%d.%06d sats=%u\n",
                    (int)m_fix.latitude,
                    (int)((m_fix.latitude < 0 ? -m_fix.latitude : m_fix.latitude) * 1e6) % 1000000,
                    (int)m_fix.longitude,

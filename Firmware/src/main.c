@@ -9,8 +9,8 @@
 
 int main(void)
 {
-    printk("Tracker Boot\n");
-    // With specific order bcs only UART
+    printk("AKT-01 tracker boot\n");
+
     uart_switch_init();
     led_init();
     gps_init();
@@ -18,7 +18,7 @@ int main(void)
     modem_init();
     state_machine_init();
 
-    printk("Boot Complete\n");
+    printk("Boot complete\n");
 
     state_machine_run();
 
