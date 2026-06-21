@@ -18,7 +18,7 @@
 2. Solder electronics and assembly into case
 3. Insert SIM-Card with cellular data over 2G 
 4. github.com/AndruPol/nrf52832-recover - setup programmer
-5. Push firmware into nRF52832 
+5. Push firmware into nRF52832 + **place your parameters in "modem.h" line 5 and 8**
 
 ## Feautures
 * Button to Sleep/Wake
