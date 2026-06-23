@@ -3,15 +3,14 @@
 > do not use to stalk people by giving them "unsuspicious" bracelet and looking where they are!!
 
 ## Zine
-<img width="556" height="844" alt="Untitled" src="https://github.com/user-attachments/assets/6ca49f55-1864-40bb-9683-53f9424ef7a8" />
+<img width="1543" height="2344" alt="Untitled-1" src="https://github.com/user-attachments/assets/c3b1a9b0-98d8-414d-a20a-ff8be50afb67" />
 
 ## Images
-<img width="750" height="449" alt="Screenshot 2026-06-20 123940" src="https://github.com/user-attachments/assets/19c69fa8-3c0b-4a63-b058-d9a5b1894166" />
-<img width="751" height="547" alt="Screenshot 2026-06-20 123924" src="https://github.com/user-attachments/assets/0e64333c-0ac3-4578-aef8-8a16fb1b17ad" />
-<img width="1316" height="851" alt="Screenshot 2026-06-20 123815" src="https://github.com/user-attachments/assets/a53a1d64-56ef-455f-8ee8-4c078fd5b7b9" />
-<img width="1920" height="1080" alt="GPS_Case" src="https://github.com/user-attachments/assets/07799b00-0fc7-46ad-b6ae-6652da43a50b" />
-<img width="588" height="801" alt="Screenshot 2026-06-20 123747" src="https://github.com/user-attachments/assets/872b7826-676f-4617-b961-67466803f055" />
-<img width="1082" height="848" alt="Screenshot 2026-06-20 123731" src="https://github.com/user-attachments/assets/cd2a1974-58fa-4613-9f29-28d2bab6180c" />
+<img width="1920" height="1080" alt="3" src="https://github.com/user-attachments/assets/4353e65a-ce85-40f8-8ee0-78b1768431ca" />
+<img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/0a0fd6fe-80b8-42f9-b727-eb2644edefc4" />
+<img width="1920" height="1080" alt="4" src="https://github.com/user-attachments/assets/770807e1-7ce4-4dbf-8222-aec4ba5c7d6d" />
+<img width="3307" height="2339" alt="tracker-1" src="https://github.com/user-attachments/assets/caf078c1-52d2-4adc-9e68-8ebe2179e5ea" />
+<img width="2339" height="1654" alt="pcb-1" src="https://github.com/user-attachments/assets/626324ca-ad38-4234-9aab-dca2bbce93e4" />
 
 ## How to use?
 1. Order components from Bill of Materials and 3D Print case
