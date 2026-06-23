@@ -11,6 +11,7 @@
 <img width="1920" height="1080" alt="4" src="https://github.com/user-attachments/assets/770807e1-7ce4-4dbf-8222-aec4ba5c7d6d" />
 <img width="3307" height="2339" alt="tracker-1" src="https://github.com/user-attachments/assets/caf078c1-52d2-4adc-9e68-8ebe2179e5ea" />
 <img width="2339" height="1654" alt="pcb-1" src="https://github.com/user-attachments/assets/626324ca-ad38-4234-9aab-dca2bbce93e4" />
+<img width="1920" height="1080" alt="a" src="https://github.com/user-attachments/assets/4189d45e-a236-4620-bca7-703ea0fb25f6" />
 
 ## How to use?
 1. Order components from Bill of Materials and 3D Print case
