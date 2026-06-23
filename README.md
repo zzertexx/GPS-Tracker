@@ -6,12 +6,12 @@
 <img width="1543" height="2344" alt="Untitled-1" src="https://github.com/user-attachments/assets/c3b1a9b0-98d8-414d-a20a-ff8be50afb67" />
 
 ## Images
-<img width="1920" height="1080" alt="3" src="https://github.com/user-attachments/assets/4353e65a-ce85-40f8-8ee0-78b1768431ca" />
-<img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/0a0fd6fe-80b8-42f9-b727-eb2644edefc4" />
 <img width="1920" height="1080" alt="4" src="https://github.com/user-attachments/assets/770807e1-7ce4-4dbf-8222-aec4ba5c7d6d" />
+<img width="1920" height="1080" alt="a" src="https://github.com/user-attachments/assets/4189d45e-a236-4620-bca7-703ea0fb25f6" />
+<img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/0a0fd6fe-80b8-42f9-b727-eb2644edefc4" />
+<img width="1920" height="1080" alt="3" src="https://github.com/user-attachments/assets/4353e65a-ce85-40f8-8ee0-78b1768431ca" />
 <img width="3307" height="2339" alt="tracker-1" src="https://github.com/user-attachments/assets/caf078c1-52d2-4adc-9e68-8ebe2179e5ea" />
 <img width="2339" height="1654" alt="pcb-1" src="https://github.com/user-attachments/assets/626324ca-ad38-4234-9aab-dca2bbce93e4" />
-<img width="1920" height="1080" alt="a" src="https://github.com/user-attachments/assets/4189d45e-a236-4620-bca7-703ea0fb25f6" />
 
 ## How to use?
 1. Order components from Bill of Materials and 3D Print case
