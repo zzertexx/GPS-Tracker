@@ -9,9 +9,8 @@
 <img width="1920" height="1080" alt="3" src="https://github.com/user-attachments/assets/4353e65a-ce85-40f8-8ee0-78b1768431ca" />
 <img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/0a0fd6fe-80b8-42f9-b727-eb2644edefc4" />
 <img width="1920" height="1080" alt="4" src="https://github.com/user-attachments/assets/770807e1-7ce4-4dbf-8222-aec4ba5c7d6d" />
-<img width="1316" height="851" alt="Screenshot 2026-06-20 123815" src="https://github.com/user-attachments/assets/a53a1d64-56ef-455f-8ee8-4c078fd5b7b9" />
-<img width="588" height="801" alt="Screenshot 2026-06-20 123747" src="https://github.com/user-attachments/assets/872b7826-676f-4617-b961-67466803f055" />
-<img width="1082" height="848" alt="Screenshot 2026-06-20 123731" src="https://github.com/user-attachments/assets/cd2a1974-58fa-4613-9f29-28d2bab6180c" />
+<img width="3307" height="2339" alt="tracker-1" src="https://github.com/user-attachments/assets/caf078c1-52d2-4adc-9e68-8ebe2179e5ea" />
+<img width="2339" height="1654" alt="pcb-1" src="https://github.com/user-attachments/assets/626324ca-ad38-4234-9aab-dca2bbce93e4" />
 
 ## How to use?
 1. Order components from Bill of Materials and 3D Print case
